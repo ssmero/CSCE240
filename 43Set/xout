@@ -1,0 +1,55 @@
+TEST THE CONSTRUCTORS
+A  TEST THE DEFAULT CONSTRUCTOR
+A  INCLUDE 'isEmpty' IN THE TEST
+A  NULL SET  {}
+A  NULL SET does test as empty {}
+A  NULL SET  {}
+A  NULL SET does test as empty {}
+A  NULL SET  {}
+A  NULL SET does test as empty {}
+A  NULL SET  {}
+A  NULL SET does test as empty {}
+A  NULL SET  {}
+A  NULL SET does test as empty {}
+
+B  TEST THE SINGLETON CONSTRUCTOR
+B  INCLUDE 'card' IN THE TEST
+B  INCLUDE 'containsElement' IN THE TEST
+B  SINGLETON SET has card 1 {     1}
+B  SINGLETON SET has card 1 {     2}
+B  SINGLETON SET has card 1 {     3}
+B  SINGLETON SET has card 1 {     4}
+B  SINGLETON SET has card 1 {     5}
+
+C  TEST THE SET FROM STRING CONSTRUCTOR
+C  INCLUDE 'card' IN THE TEST
+C  INCLUDE 'containsElement' IN THE TEST
+C1 STRING-CONSTRUCTED SET has correct card {     1     2     3     4     5     6}
+C3 STRING-CONSTRUCTED SET has correct card {     1     3     7     9    13}
+C3 STRING-CONSTRUCTED SET has correct card {}
+
+D  TEST THE SET FROM VECTOR CONSTRUCTOR
+D  INCLUDE 'card' IN THE TEST
+D  INCLUDE 'containsElement' IN THE TEST
+D1 VECTOR-CONSTRUCTED SET has correct card {     1     2     3     4     5     6}
+D3 VECTOR-CONSTRUCTED SET has correct card {     1     3     7     9    13}
+D3 VECTOR-CONSTRUCTED SET has correct card {}
+
+E  TEST THE SET FROM VECTOR CONSTRUCTOR
+E  INCLUDE 'card' IN THE TEST
+E  INCLUDE 'containsElement' IN THE TEST
+E  INCLUDE 'setFromVector' IN THE TEST
+E1 SET-CONSTRUCTED SET has correct card {     1     2     3     4     5     6}
+E3 SET-CONSTRUCTED SET has correct card {     1     3     7     9    13}
+E3 SET-CONSTRUCTED SET has correct card {}
+
+FA  TEST THE EQUALS FUNCTION
+FA  NULL SET nullSetA  {}
+FA  NULL SET nullSetB  {}
+FA  NULL SET nullSetA tests equals to NULL SET nullsetB
+FA  NULL SET nullsetB tests equals to nullSetA
+FA  SET setA  {     1     2     3     4     5     6}
+FA  SET setB  {     1     2     3     4     5     6}
+FA  SET setA tests unequal to nullSetA
+FA  SET setA tests equal to setB
+

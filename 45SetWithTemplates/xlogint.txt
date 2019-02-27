@@ -1,0 +1,21 @@
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Nov 15 12:30:36 2015
+TIME beginning             0.00 u         0.00 s   Res:      720896
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+Main: Beginning execution
+Main: infile  'xinput.txt'
+Main: outfile 'xout'
+Main: logfile 'xlog'
+Main: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Nov 15 12:30:36 2015
+TIME ending                0.00 u         0.00 s   Res:      786432
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+

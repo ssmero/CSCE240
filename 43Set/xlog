@@ -1,0 +1,114 @@
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sat Nov 14 15:44:48 2015
+TIME beginning             0.00 u         0.00 s   Res:      745472
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+Main: Beginning execution
+Main: infile  'xinput.txt'
+Main: outfile 'xout'
+Main: logfile 'xlog'
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter singleton constructor 1
+Set: leave singleton constructor
+Set: enter singleton constructor 2
+Set: leave singleton constructor
+Set: enter singleton constructor 3
+Set: leave singleton constructor
+Set: enter singleton constructor 4
+Set: leave singleton constructor
+Set: enter singleton constructor 5
+Set: leave singleton constructor
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter string constructor  1  4  3  2  5  6
+Set: read ' 1  4  3  2  5  6'
+Set: scanning line and inserting 1
+Set: scanning line and inserting 4
+Set: scanning line and inserting 3
+Set: scanning line and inserting 2
+Set: scanning line and inserting 5
+Set: scanning line and inserting 6
+Set: leave string constructor
+Set: enter string constructor  1  9  7  3  13
+Set: read ' 1  9  7  3  13'
+Set: scanning line and inserting 1
+Set: scanning line and inserting 9
+Set: scanning line and inserting 7
+Set: scanning line and inserting 3
+Set: scanning line and inserting 13
+Set: leave string constructor
+Set: enter string constructor 
+Set: read ''
+Set: empty line
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter set from vector constructor
+Set: leave set from vector constructor
+Set: enter set from vector constructor
+Set: leave set from vector constructor
+Set: enter set from vector constructor
+Set: leave set from vector constructor
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter set from vector constructor
+Set: leave set from vector constructor
+Set: enter set from set constructor
+Set:  {     1     2     3     4     5     6}
+Set: leave set from set constructor
+Set: enter set from vector constructor
+Set: leave set from vector constructor
+Set: enter set from set constructor
+Set:  {     1     3     7     9    13}
+Set: leave set from set constructor
+Set: enter set from vector constructor
+Set: leave set from vector constructor
+Set: enter set from set constructor
+Set:  {}
+Set: leave set from set constructor
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter default constructor 
+Set: leave default constructor 
+Set: enter set from vector constructor
+Set: leave set from vector constructor
+Set: enter set from vector constructor
+Set: leave set from vector constructor
+Main: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sat Nov 14 15:44:48 2015
+TIME ending                0.00 u         0.00 s   Res:      827392
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+

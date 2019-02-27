@@ -1,0 +1,2 @@
+diff xout xout.bup
+diff xlog xlog.bup | grep -v TIME

@@ -1,0 +1,4 @@
+Main: output INTEGER X {4 7 10 }X
+Main: output STRING X {that theother this }X
+Main: output DOUBLE X {}X
+Main: output DOUBLE card X0X
