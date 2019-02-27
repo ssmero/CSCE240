@@ -1,0 +1,56 @@
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Thu Jun 18 20:50:19 2015
+TIME beginning             0.00 u         0.00 s   Res:      602112
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+Main: Beginning execution
+Main: infile  'zin.txt'
+Main: outfile 'zzzout'
+Main: logfile 'zzzlog'
+MyMap: ADD Herbert        2A41  789.0123    390
+MyMap: ADD Lander         2A47  789.7890    146
+MyMap: ADD Winthrop       3A71  789.4667    611
+MyMap: ADD Marion         2A13  789.1536    750
+MyMap: SKIP Herbert        2A41  789.0123    390
+MyMap: ADD Adams          3A56  789.8702    522
+MyMap: ADD Smith          2A46  789.5275    101
+MyMap: SKIP Marion         2A13  789.1536    750
+MyMap: ADD Axolotl        3A22  789.2749    102
+MyMap: SKIP Adams          3A56  789.8702    522
+MyMap: ADD Zokni          3A39  789.9111    350
+MyMap: ADD Igen           2A21  789.6050    240
+MyMap: ADD Nem            2A89  789.3383    790
+MyMap: SKIP Lander         2A47  789.7890    146
+MyMap: SKIP Winthrop       3A71  789.4667    611
+MyMap: SKIP Adams          3A56  789.8702    522
+MyMap: SKIP Smith          2A46  789.5275    101
+MyMap: SKIP Axolotl        3A22  789.2749    102
+MyMap: SKIP Zokni          3A39  789.9111    350
+MyMap: SKIP Igen           2A21  789.6050    240
+MyMap: SKIP Nem            2A89  789.3383    790
+MyMap: SKIP Smith          2A46  789.5275    101
+MyMap: SKIP Axolotl        3A22  789.2749    102
+MyMap: SKIP Zokni          3A39  789.9111    350
+MyMap: SKIP Igen           2A21  789.6050    240
+MyMap: SKIP Nem            2A89  789.3383    790
+MyMap: SKIP Herbert        2A41  789.0123    390
+MyMap: SKIP Lander         2A47  789.7890    146
+MyMap: SKIP Winthrop       3A71  789.4667    611
+MyMap: SKIP Marion         2A13  789.1536    750
+MyMap: SKIP Smith          2A46  789.5275    101
+MyMap: SKIP Axolotl        3A22  789.2749    102
+MyMap: SKIP Zokni          3A39  789.9111    350
+MyMap: SKIP Igen           2A21  789.6050    240
+MyMap: SKIP Nem            2A89  789.3383    790
+Main: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Thu Jun 18 20:50:19 2015
+TIME ending                0.00 u         0.00 s   Res:      679936
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+

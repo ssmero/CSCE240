@@ -1,0 +1,21 @@
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Thu May 12 08:21:00 2016
+TIME beginning             0.00 u         0.00 s   Res:      724992
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+MAIN: Beginning execution
+MAIN: infile  'zin.txt'
+MAIN: outfile 'zout'
+MAIN: logfile 'zlog'
+MAIN: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Thu May 12 08:21:00 2016
+TIME ending                0.00 u         0.00 s   Res:      786432
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
