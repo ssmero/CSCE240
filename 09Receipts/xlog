@@ -1,0 +1,5 @@
+MAIN: Beginning execution
+MAIN: infile  'xinput.txt'
+MAIN: outfile 'xout'
+MAIN: logfile 'xlog'
+MAIN: Ending execution
