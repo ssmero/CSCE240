@@ -1,0 +1,5 @@
+MAIN: Beginning execution
+MAIN: infile  'zin.txt'
+MAIN: outfile 'zzzout'
+MAIN: logfile 'zzzlog'
+MAIN: Ending execution
