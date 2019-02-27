@@ -1,0 +1,90 @@
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Tue Jun 28 10:28:03 2016
+TIME beginning             0.00 u         0.00 s   Res:      729088
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+MAIN: Beginning execution
+MAIN: infile  'xin'
+MAIN: outfile 'xout'
+MAIN: logfile 'xlog'
+Call          4 at level          1
+Call          3 at level          2
+Call          2 at level          3
+Call          1 at level          4
+Return 1 at level          5
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Tue Jun 28 10:28:03 2016
+TIME          5            0.00 u         0.00 s   Res:      761856
+TIME          5            0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+Return               2 at level          4
+Return               6 at level          3
+Return              24 at level          2
+Return             120 at level          1
+
+
+Call          6 at level          1
+Call          5 at level          2
+Call          4 at level          3
+Call          3 at level          4
+Call          2 at level          5
+Call          1 at level          6
+Return 1 at level          7
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Tue Jun 28 10:28:03 2016
+TIME          7            0.00 u         0.00 s   Res:      765952
+TIME          7            0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+Return               2 at level          6
+Return               6 at level          5
+Return              24 at level          4
+Return             120 at level          3
+Return             720 at level          2
+Return            5040 at level          1
+
+
+Call          8 at level          1
+Call          7 at level          2
+Call          6 at level          3
+Call          5 at level          4
+Call          4 at level          5
+Call          3 at level          6
+Call          2 at level          7
+Call          1 at level          8
+Return 1 at level          9
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Tue Jun 28 10:28:03 2016
+TIME          9            0.00 u         0.00 s   Res:      765952
+TIME          9            0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+Return               2 at level          8
+Return               6 at level          7
+Return              24 at level          6
+Return             120 at level          5
+Return             720 at level          4
+Return            5040 at level          3
+Return           40320 at level          2
+Return          362880 at level          1
+
+
+MAIN: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Tue Jun 28 10:28:03 2016
+TIME ending                0.00 u         0.00 s   Res:      765952
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+

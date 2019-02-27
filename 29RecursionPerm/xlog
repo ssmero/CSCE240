@@ -1,0 +1,21 @@
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Tue Jun 28 10:45:34 2016
+TIME beginning             0.00 u         0.00 s   Res:      737280
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+MAIN: Beginning execution
+MAIN: infile  'xin4.txt'
+MAIN: outfile 'xout'
+MAIN: logfile 'xlog'
+MAIN: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Tue Jun 28 10:45:34 2016
+TIME ending                0.00 u         0.00 s   Res:      811008
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
