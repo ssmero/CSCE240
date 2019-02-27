@@ -1,0 +1,5 @@
+Beginning execution
+infile  'xin.txt'
+outfile 'xout'
+logfile 'xlog'
+Ending execution

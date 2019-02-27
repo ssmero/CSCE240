@@ -1,0 +1,45 @@
+/******************************************************************************
+ * Function 'readGraph'.
+ * We read data from the input stream and create a graph.
+ *
+ * Parameter:
+**/
+void GraphCode::readGraph(Scanner& inStream)
+{
+  ScanLine scanLine;
+
+#ifdef EBUG
+  cout << TAG << "enter readGraph\n"; 
+#endif
+
+  int firstNode, lastNode;
+  firstNode = inStream.nextInt();
+  lastNode = inStream.nextInt();
+  assert ( 0 == firstNode);
+  for(int i = 0; i <= lastNode; ++i)
+  {
+    Node node = Node(i);
+    this->theGraph.push_back(node);
+  }
+
+  while (inStream.hasNext())
+  {
+    string theLine = inStream.nextLine();
+
+    scanLine.openString(theLine);
+    int parentNodeNum = scanLine.nextInt();
+    Node node = this->theGraph.at(parentNodeNum);
+    while( scanLine.hasNext())
+    {
+      int theChild = scanLine.nextInt();
+
+      node.addChildSub(theChild);
+    }
+    this->theGraph.at(parentNodeNum) = node;
+  }
+
+#ifdef EBUG
+  cout << TAG << "leave readGraph " << endl;
+#endif
+} // void GraphCode::readGraph(Scanner& inStream)
+
